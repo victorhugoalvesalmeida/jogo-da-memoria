@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffebcd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.game-board {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card.flipped {
+    background-color: #b0e0e6; /* Cor da carta virada */
+}
+
+#gameOver {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #5a9bd6;
+}
+
+#ranking {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
